@@ -1,0 +1,27 @@
+
+TERRAFORM AZURE SECURE INFRASTRUCTURE PROJECT
+
+This project demonstrates how to provision secure Azure infrastructure using Terraform.
+
+Components Used:
+- Resource Group
+- Virtual Network
+- Subnet
+- Network Security Group
+- Public IP
+- Linux Virtual Machine
+- Azure Bastion
+- Azure Key Vault
+- Azure Monitor Agent
+
+Deployment Commands:
+terraform init
+terraform plan
+terraform apply
+
+Verification:
+systemctl status azuremonitoragent
+
+Purpose:
+This project helps beginners understand Infrastructure as Code (IaC), Azure networking,
+virtual machines, monitoring, and cloud security concepts using Terraform.
